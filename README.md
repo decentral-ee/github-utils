@@ -1,2 +1,2 @@
 # github-utils
-Github Utilities
+Github Utilities for organizations.

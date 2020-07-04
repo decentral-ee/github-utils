@@ -1,0 +1,36 @@
+{
+  "name": "@decentral.ee/github-utils",
+  "version": "0.0.1",
+  "description": "Github utilities for organizations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentral-ee/github-utils.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Miao ZhiCheng <miao@decentral.ee>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentral-ee/github-utils/issues"
+  },
+  "homepage": "https://github.com/decentral-ee/github-utils#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
